@@ -5,6 +5,12 @@ import lombok.Data;
 
 @Data
 public class PriceTrends {
-    @JsonProperty("price_history") private String priceHistory;
-    @JsonProperty("avg_price") private long avgPricePerSqFt;
+    @JsonProperty("price_history")
+    private String priceHistory;
+    @JsonProperty("avg_price")
+    private long avgPricePerSqFt;
+
+    public PriceTrends() {
+
+    }
 }
