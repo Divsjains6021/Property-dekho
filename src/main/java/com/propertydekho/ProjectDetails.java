@@ -4,8 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 @Data
 public class ProjectDetails {
-        @JsonProperty("prop_id") private String propID;
-        @JsonProperty("prop_name") private String propName;
-        @JsonProperty("prop_price") private double propPrice;
+        @JsonProperty("proj_name") private String projName;
+        @JsonProperty("proj_desc") private String projDesc;
     }
 
