@@ -1,4 +1,4 @@
-package com.propertydekho;
+package com.propertydekho.models;
 
 public class LocalityDetails {
 }
