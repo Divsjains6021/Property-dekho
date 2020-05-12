@@ -15,5 +15,10 @@ public class ProjectDetails {
     public ProjectDetails() {
 
     }
+
+    public ProjectDetails(String projName, String projDesc) {
+        this.projName = projName;
+        this.projDesc = projDesc;
+    }
 }
 
