@@ -1,4 +1,4 @@
-package com.propertydekho;
+package com.propertydekho.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
