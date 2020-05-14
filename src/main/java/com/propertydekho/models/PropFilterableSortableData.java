@@ -16,7 +16,7 @@ public class PropFilterableSortableData {
     @JsonProperty("budget_max")
     private double budgetMax;
     @JsonProperty("bedroom")
-    private int bedroom;
+    private String bedroom;
     @JsonProperty("sale_type")
     private String saleType;
     @JsonProperty("constructn_status")
@@ -28,7 +28,7 @@ public class PropFilterableSortableData {
 
     }
 
-    public PropFilterableSortableData(String propID, String propName, double propPrice, double budgetMax, int bedroom, String saleType, String constructionStatus, String area) {
+    public PropFilterableSortableData(String propID, String propName, double propPrice, double budgetMax, String bedroom, String saleType, String constructionStatus, String area) {
         this.propID = propID;
         this.propName = propName;
         this.propPrice = propPrice;
