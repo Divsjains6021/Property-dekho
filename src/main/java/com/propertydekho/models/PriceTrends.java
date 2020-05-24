@@ -15,5 +15,10 @@ public class PriceTrends {
     public PriceTrends() {
 
     }
+
+    public PriceTrends(String priceHistory, long avgPricePerSqFt) {
+        this.priceHistory = priceHistory;
+        this.avgPricePerSqFt = avgPricePerSqFt;
+    }
 }
 

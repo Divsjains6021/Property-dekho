@@ -15,4 +15,9 @@ public class LocalityDetails {
     public LocalityDetails() {
 
     }
+
+    public LocalityDetails(String localityRating, String nearby) {
+        this.localityRating = localityRating;
+        this.nearby = nearby;
+    }
 }

@@ -17,4 +17,10 @@ public class BuilderDetails {
     public BuilderDetails() {
 
     }
+
+    public BuilderDetails(String builderId, String builderName, String builderLocatn) {
+        this.builderId = builderId;
+        this.builderName = builderName;
+        this.builderLocatn = builderLocatn;
+    }
 }
