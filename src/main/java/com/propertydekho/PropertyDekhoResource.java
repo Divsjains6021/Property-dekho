@@ -2,10 +2,11 @@ package com.propertydekho;
 
 import com.propertydekho.models.PropDetailList;
 import com.propertydekho.models.PropIDs;
+import com.propertydekho.models.PropertyDetails;
 import com.propertydekho.models.PropMetaDataList;
 import com.propertydekho.views.InitPropViewInput;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
